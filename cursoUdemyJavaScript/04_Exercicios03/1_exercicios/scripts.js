@@ -32,5 +32,6 @@ console.log("-- Exercício 04 --");
 function numeroAleatorio(num){
     return Math.floor(Math.random() * num) + 1;
 }
-numeroAleatorio(2);
-numeroAleatorio(10);
+console.log(numeroAleatorio(2));
+console.log(numeroAleatorio(50));
+console.log(numeroAleatorio(15));
